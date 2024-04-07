@@ -1,4 +1,4 @@
-import e, * as express from 'express'
+import * as express from 'express'
 import { ObjectId } from 'mongodb'
 import { collections } from './database'
 
