@@ -5,4 +5,5 @@ export interface Employee {
   position: string
   level: 'junior' | 'mid' | 'senior'
   _id?: mongodb.ObjectId
+  app: 'react' | 'angular'
 }

@@ -39,6 +39,11 @@ async function applySchemaValidation(db: mongodb.Db) {
             '"level" is required and is one of "junior", "mid", "senior"',
           enum: ['junior', 'mid', 'senior'],
         },
+        app: {
+          bsonType: 'string',
+          description: '"app" is required and is one of "react", "angular"',
+          enum: ['react', 'angular'],
+        },
       },
     },
   }
